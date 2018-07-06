@@ -13,6 +13,7 @@
 		04B82A3D20F0046E00E07E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B82A3C20F0046E00E07E04 /* Assets.xcassets */; };
 		04B82A4020F0046E00E07E04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B82A3E20F0046E00E07E04 /* LaunchScreen.storyboard */; };
 		04B82A4B20F0046F00E07E04 /* KeyChain101Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B82A4A20F0046F00E07E04 /* KeyChain101Tests.swift */; };
+		04B82A5620F0101800E07E04 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B82A5520F0101800E07E04 /* KeychainWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		04B82A4620F0046F00E07E04 /* KeyChain101Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyChain101Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B82A4A20F0046F00E07E04 /* KeyChain101Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChain101Tests.swift; sourceTree = "<group>"; };
 		04B82A4C20F0046F00E07E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B82A5520F0101800E07E04 /* KeychainWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				04B82A3520F0046B00E07E04 /* AppDelegate.swift */,
 				04B82A3720F0046B00E07E04 /* ViewController.swift */,
+				04B82A5520F0101800E07E04 /* KeychainWrapper.swift */,
 				04B82A3920F0046B00E07E04 /* Main.storyboard */,
 				04B82A3C20F0046E00E07E04 /* Assets.xcassets */,
 				04B82A3E20F0046E00E07E04 /* LaunchScreen.storyboard */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B82A5620F0101800E07E04 /* KeychainWrapper.swift in Sources */,
 				04B82A3820F0046B00E07E04 /* ViewController.swift in Sources */,
 				04B82A3620F0046B00E07E04 /* AppDelegate.swift in Sources */,
 			);
